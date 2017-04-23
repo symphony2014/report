@@ -1381,11 +1381,10 @@ webpackJsonp([ 4 ], {
     },
     241: function(t, e, o) {
         "use strict";
-        var n = o(57), r = o(3), i = [], a = function(t) {
+        var n = (o(57), o(3)), r = [], i = function(t) {
             return t;
         };
-        n.disableDebugTools(), r.enableProdMode(), i = i.slice(), e.decorateModuleRef = a, 
-        e.ENV_PROVIDERS = i.slice();
+        n.enableProdMode(), r = r.slice(), e.decorateModuleRef = i, e.ENV_PROVIDERS = r.slice();
     },
     247: function(t, e, o) {
         "use strict";
